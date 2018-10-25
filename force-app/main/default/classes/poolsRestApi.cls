@@ -2,13 +2,12 @@
 global with sharing class poolsRestApi {
 
     @HttpGet
-    global static list<ReturnShape> getPools() {
+    global static void getPools() {
 
         RestRequest req = RestContext.request;
-        RestResponse res = RestContext.response;
+        RestContext.response.addHeader('Content-Type', 'application/json');
         String environment = req.requestURI.substring(req.requestURI.lastIndexOf('/')+1);
-
-        return actualWork(environment);
+        RestContext.response.responseBody = Blob.valueOf(JSON.serialize(actualWork(environment)));
     }
 
     global static list<ReturnShape> actualWork(string environment){
