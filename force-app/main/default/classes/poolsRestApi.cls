@@ -1,6 +1,7 @@
 @RestResource(urlMapping='/pools/*')
 global with sharing class poolsRestApi {
 
+    @HttpGet
     global static list<ReturnShape> getPools() {
 
         RestRequest req = RestContext.request;
