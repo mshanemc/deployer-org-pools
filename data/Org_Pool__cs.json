@@ -29,7 +29,55 @@
                 "type": "Org_Pool__c",
                 "referenceId": "Org_Pool__cRef3"
             },
-            "Name": "DF18 Volvo Low Code",
+            "Name": "Lightning Reporting Workshoip",
+            "Environment__c": "Production",
+            "Github_User__c": "mshanemc",
+            "Hours__c": 12,
+            "Quantity__c": 5,
+            "Repo__c": "reporting-workshop"
+        },
+        {
+            "attributes": {
+                "type": "Org_Pool__c",
+                "referenceId": "Org_Pool__cRef4"
+            },
+            "Name": "Workshop: Write Code that empower Non Coders",
+            "Environment__c": "Production",
+            "Github_User__c": "mshanemc",
+            "Hours__c": 12,
+            "Quantity__c": 3,
+            "Repo__c": "codeForClicks"
+        },
+        {
+            "attributes": {
+                "type": "Org_Pool__c",
+                "referenceId": "Org_Pool__cRef5"
+            },
+            "Name": "Lighting Adoption: Quick Actions",
+            "Environment__c": "Production",
+            "Github_User__c": "mshanemc",
+            "Hours__c": 12,
+            "Quantity__c": 3,
+            "Repo__c": "quick-actions"
+        },
+        {
+            "attributes": {
+                "type": "Org_Pool__c",
+                "referenceId": "Org_Pool__cRef6"
+            },
+            "Name": "DF18 Volvo Low Code Builder",
+            "Environment__c": "Production",
+            "Github_User__c": "mshanemc",
+            "Hours__c": 12,
+            "Quantity__c": 2,
+            "Repo__c": "cg1-lowcode"
+        },
+        {
+            "attributes": {
+                "type": "Org_Pool__c",
+                "referenceId": "Org_Pool__cRef7"
+            },
+            "Name": "DF17 Ducati App Building Demo",
             "Environment__c": "Production",
             "Github_User__c": "mshanemc",
             "Hours__c": 12,
@@ -39,7 +87,7 @@
         {
             "attributes": {
                 "type": "Org_Pool__c",
-                "referenceId": "Org_Pool__cRef4"
+                "referenceId": "Org_Pool__cRef8"
             },
             "Name": "Easy Spaces",
             "Environment__c": "Production",
@@ -51,7 +99,67 @@
         {
             "attributes": {
                 "type": "Org_Pool__c",
-                "referenceId": "Org_Pool__cRef5"
+                "referenceId": "Org_Pool__cRef9"
+            },
+            "Name": "Lippert RV IoT",
+            "Environment__c": "Production",
+            "Github_User__c": "mshanemc",
+            "Hours__c": 48,
+            "Quantity__c": 1,
+            "Repo__c": "rviot"
+        },
+        {
+            "attributes": {
+                "type": "Org_Pool__c",
+                "referenceId": "Org_Pool__cRef10"
+            },
+            "Name": "Volunteering Base Package",
+            "Environment__c": "Production",
+            "Github_User__c": "mshanemc",
+            "Hours__c": 12,
+            "Quantity__c": 5,
+            "Repo__c": "volunteering-base-pkg"
+        },
+        {
+            "attributes": {
+                "type": "Org_Pool__c",
+                "referenceId": "Org_Pool__cRef11"
+            },
+            "Name": "Lighting Adoption: Service Case Customizations",
+            "Environment__c": "Production",
+            "Github_User__c": "mshanemc",
+            "Hours__c": 12,
+            "Quantity__c": 3,
+            "Repo__c": "adoption-service"
+        },
+        {
+            "attributes": {
+                "type": "Org_Pool__c",
+                "referenceId": "Org_Pool__cRef12"
+            },
+            "Name": "Lighting Adoption: Go Live",
+            "Environment__c": "Production",
+            "Github_User__c": "mshanemc",
+            "Hours__c": 12,
+            "Quantity__c": 3,
+            "Repo__c": "lightning-go-live"
+        },
+        {
+            "attributes": {
+                "type": "Org_Pool__c",
+                "referenceId": "Org_Pool__cRef13"
+            },
+            "Name": "Lighting Adoption: Converting Javascript Buttons",
+            "Environment__c": "Production",
+            "Github_User__c": "mshanemc",
+            "Hours__c": 12,
+            "Quantity__c": 3,
+            "Repo__c": "js-buttons"
+        },
+        {
+            "attributes": {
+                "type": "Org_Pool__c",
+                "referenceId": "Org_Pool__cRef14"
             },
             "Name": "Grocery Mobile Low-Code",
             "Environment__c": "Production",
@@ -59,6 +167,42 @@
             "Hours__c": 12,
             "Quantity__c": 1,
             "Repo__c": "groceryDemo"
+        },
+        {
+            "attributes": {
+                "type": "Org_Pool__c",
+                "referenceId": "Org_Pool__cRef15"
+            },
+            "Name": "Lightning Adoption Workshop: Convert Visualforce Pages",
+            "Environment__c": "Production",
+            "Github_User__c": "mshanemc",
+            "Hours__c": 12,
+            "Quantity__c": 3,
+            "Repo__c": "lightning-vf"
+        },
+        {
+            "attributes": {
+                "type": "Org_Pool__c",
+                "referenceId": "Org_Pool__cRef16"
+            },
+            "Name": "Lighting Adoption: Sales Opportunity Workspace",
+            "Environment__c": "Production",
+            "Github_User__c": "mshanemc",
+            "Hours__c": 12,
+            "Quantity__c": 3,
+            "Repo__c": "adoption-sales"
+        },
+        {
+            "attributes": {
+                "type": "Org_Pool__c",
+                "referenceId": "Org_Pool__cRef17"
+            },
+            "Name": "DF18 Volvo Lightning External Apps",
+            "Environment__c": "Production",
+            "Github_User__c": "mshanemc",
+            "Hours__c": 12,
+            "Quantity__c": 2,
+            "Repo__c": "cg6-lea"
         }
     ]
 }
