@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField>
+    <label>Hours</label>
+    <type>Number</type>
+    <fullName>Hours__c</fullName>
+    <scale>0</scale>
+    <precision>3</precision>
+    <required>true</required>
+    <unique>false</unique>
+    <externalId>false</externalId>
+    <description>how many hours an org should last before it's destroyed</description>
+    <inlineHelpText>how many hours an org should last before it's destroyed</inlineHelpText>
+    <trackHistory>true</trackHistory>
+</CustomField>

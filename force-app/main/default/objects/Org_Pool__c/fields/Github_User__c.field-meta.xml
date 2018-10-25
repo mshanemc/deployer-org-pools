@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField>
+    <label>Github User</label>
+    <type>Text</type>
+    <fullName>Github_User__c</fullName>
+    <length>255</length>
+    <required>true</required>
+    <unique>false</unique>
+    <externalId>false</externalId>
+    <description>username on github (ex: mshanemc)</description>
+    <inlineHelpText>username on github (ex: mshanemc)</inlineHelpText>
+    <trackHistory>true</trackHistory>
+</CustomField>

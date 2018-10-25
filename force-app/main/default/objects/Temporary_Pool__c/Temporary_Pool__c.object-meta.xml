@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <deploymentStatus>Deployed</deploymentStatus>
+    <label>Temporary Pool</label>
+    <pluralLabel>Temporary Pools</pluralLabel>
+    <description>added from sfdx plugin</description>
+    <nameField>
+        <type>AutoNumber</type>
+        <label>Name</label>
+        <displayFormat>Temporary Pool-{0}</displayFormat>
+    </nameField>
+    <sharingModel>ReadWrite</sharingModel>
+    <enableSharing>true</enableSharing>
+    <enableBulkApi>true</enableBulkApi>
+    <enableStreamingApi>true</enableStreamingApi>
+</CustomObject>

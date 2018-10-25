@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField>
+    <label>Description</label>
+    <type>LongTextArea</type>
+    <fullName>Description__c</fullName>
+    <length>131072</length>
+    <visibleLines>3</visibleLines>
+    <required>false</required>
+    <description>describe the org pool (demo, workshop, product, etc)</description>
+    <inlineHelpText>describe the org pool (demo, workshop, product, etc)</inlineHelpText>
+    <trackHistory>true</trackHistory>
+</CustomField>

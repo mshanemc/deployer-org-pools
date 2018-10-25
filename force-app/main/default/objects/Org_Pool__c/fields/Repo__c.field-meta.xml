@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField>
+    <label>Repo</label>
+    <type>Text</type>
+    <fullName>Repo__c</fullName>
+    <length>255</length>
+    <required>true</required>
+    <unique>true</unique>
+    <externalId>true</externalId>
+    <description>repo name on github</description>
+    <inlineHelpText>repo name on github</inlineHelpText>
+    <trackHistory>true</trackHistory>
+</CustomField>

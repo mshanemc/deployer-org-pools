@@ -1,0 +1,18 @@
+[
+    {
+        "sobject": "Org_Pool__c",
+        "saveRefs": true,
+        "resolveRefs": false,
+        "files": [
+            "Org_Pool__cs.json"
+        ]
+    },
+    {
+        "sobject": "Temporary_Pool__c",
+        "saveRefs": false,
+        "resolveRefs": true,
+        "files": [
+            "Temporary_Pool__cs.json"
+        ]
+    }
+]

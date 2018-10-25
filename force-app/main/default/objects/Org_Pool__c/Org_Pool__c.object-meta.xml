@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <deploymentStatus>Deployed</deploymentStatus>
+    <label>Org Pool</label>
+    <pluralLabel>Org Pools</pluralLabel>
+    <description>added from sfdx plugin</description>
+    <nameField>
+        <type>Text</type>
+        <label>Name</label>
+    </nameField>
+    <sharingModel>ReadWrite</sharingModel>
+    <enableSharing>true</enableSharing>
+    <enableBulkApi>true</enableBulkApi>
+    <enableStreamingApi>true</enableStreamingApi>
+    <enableFeeds>true</enableFeeds>
+    <enableSearch>true</enableSearch>
+    <enableHistory>true</enableHistory>
+</CustomObject>

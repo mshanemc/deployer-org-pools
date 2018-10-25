@@ -1,0 +1,14 @@
+{
+    "records": [
+        {
+            "attributes": {
+                "type": "Temporary_Pool__c",
+                "referenceId": "Temporary_Pool__cRef1"
+            },
+            "Description__c": "extra test",
+            "Org_Pool__c": "@Org_Pool__cRef3",
+            "Quantity__c": 5,
+            "Start_Time__c": "2018-10-27T08:00:00.000+0000"
+        }
+    ]
+}
