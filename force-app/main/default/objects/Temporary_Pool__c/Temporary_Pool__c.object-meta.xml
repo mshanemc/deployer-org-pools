@@ -9,8 +9,7 @@
         <label>Name</label>
         <displayFormat>Temporary Pool-{0}</displayFormat>
     </nameField>
-    <sharingModel>ReadWrite</sharingModel>
-    <enableSharing>true</enableSharing>
+    <sharingModel>ControlledByParent</sharingModel>
     <enableBulkApi>true</enableBulkApi>
     <enableStreamingApi>true</enableStreamingApi>
 </CustomObject>
