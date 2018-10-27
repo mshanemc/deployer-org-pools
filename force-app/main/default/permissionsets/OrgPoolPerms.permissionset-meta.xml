@@ -14,6 +14,11 @@
         <field>Temporary_Pool__c.Description__c</field>
         <readable>true</readable>
     </fieldPermissions>
+    <fieldPermissions>
+        <readable>true</readable>
+        <editable>true</editable>
+        <field>Org_Pool__c.Public__c</field>
+    </fieldPermissions>
     <hasActivationRequired>false</hasActivationRequired>
     <label>OrgPoolPerms</label>
     <objectPermissions>

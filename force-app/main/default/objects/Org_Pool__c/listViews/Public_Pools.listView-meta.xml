@@ -1,13 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ListView xmlns="http://soap.sforce.com/2006/04/metadata">
-    <fullName>All_Pools</fullName>
+    <fullName>Public_Pools</fullName>
     <columns>NAME</columns>
-    <columns>Public__c</columns>
     <columns>Github_User__c</columns>
     <columns>Repo__c</columns>
     <columns>Quantity__c</columns>
     <columns>Hours__c</columns>
     <columns>Environment__c</columns>
-    <filterScope>Mine</filterScope>
-    <label>All Pools</label>
+    <columns>Description__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Public__c</field>
+        <operation>equals</operation>
+        <value>1</value>
+    </filters>
+    <label>Public Pools</label>
 </ListView>
