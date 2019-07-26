@@ -15,20 +15,13 @@ public with sharing class poolBotWorkshopFinder {
             // list<WorkshopSearchResults> singleList = new list<WorkshopSearchResults>();
             List<List<SObject>> searchResults = [FIND :input.SearchPhrase IN ALL FIELDS RETURNING Org_Pool__c (Id, Name, Description__c WHERE Public__c = true)];
             List<Org_Pool__c> pools = (Org_Pool__c[])searchResults[0];
-
-            // for(Org_Pool__c pool: pools){
-            //     system.debug(pool);
-
-            //     // WorkshopSearchResults item = new WorkshopSearchResults();
-            //     // item.Name = pool.Name;
-            //     // item.recordId = pool.Id;
-            //     // item.Description = pool.Description__c;
-            //     // singleList.add(item);
-            //     output.add(pool);
-            // }
+            
+            if (pools.isEmpty()){
+                list<Org_Pool__c> all = [select Id, Name, Description__c from Org_Pool__c WHERE Public__c = true];
+        		output.add(all);
+            }
             output.add(pools);
-        }
-
+        }               
         return output;
     }
 }

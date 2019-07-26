@@ -11,7 +11,7 @@ global with sharing class poolsRestApi {
     }
 
     global static list<ReturnShape> actualWork(string environment){
-        List<Org_Pool__c> pools = [SELECT Hours__c, Quantity__c, Github_User__c, Repo__c,
+        List<Org_Pool__c> pools = [SELECT Hours__c, Quantity__c, Github_User__c, Repo__c, Branch__c,
         (select Quantity__c from Temporary_Pools__r where Start_Time__c = TODAY OR Start_Time__c = TOMORROW)
         FROM Org_Pool__c
         WHERE environment__c = :environment];
@@ -23,14 +23,18 @@ global with sharing class poolsRestApi {
             ReturnShape item = new ReturnShape();
             item.user = pool.Github_User__c;
             item.repo = pool.Repo__c;
+            item.branch = pool.Branch__c;
             item.lifeHours = integer.valueOf(pool.Hours__c);
-            item.quantity = integer.valueOf(pool.Quantity__c);
+            integer quantity = integer.valueOf(pool.Quantity__c);
+            // item.quantity =
 
             for (Temporary_Pool__c temp:pool.Temporary_Pools__r){
                 system.debug(temp);
-                item.quantity = item.quantity + integer.valueOf(temp.Quantity__c);
+                quantity = quantity + integer.valueOf(temp.Quantity__c);
+                system.debug('quantity is ' + quantity);
             }
 
+            item.quantity = quantity;
             output.add(item);
         }
 
@@ -40,6 +44,7 @@ global with sharing class poolsRestApi {
     global class ReturnShape {
         string user {get;set;}
         string repo {get;set;}
+        string branch {get;set;}
         integer quantity {get;set;}
         integer lifeHours {get;set;}
     }

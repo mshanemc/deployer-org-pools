@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>TDX_Workshops</fullName>
+    <booleanFilter>2 AND 10 and (1 OR 3 or 4 or 5 or 6 or 7 or 8 or 9)</booleanFilter>
+    <columns>NAME</columns>
+    <columns>Public__c</columns>
+    <columns>Github_User__c</columns>
+    <columns>Repo__c</columns>
+    <columns>Quantity__c</columns>
+    <columns>Hours__c</columns>
+    <columns>Environment__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Repo__c</field>
+        <operation>contains</operation>
+        <value>workshop</value>
+    </filters>
+    <filters>
+        <field>Environment__c</field>
+        <operation>notEqual</operation>
+        <value>Development</value>
+    </filters>
+    <filters>
+        <field>Repo__c</field>
+        <operation>equals</operation>
+        <value>codeForClicks</value>
+    </filters>
+    <filters>
+        <field>Repo__c</field>
+        <operation>equals</operation>
+        <value>lightning-vf</value>
+    </filters>
+    <filters>
+        <field>Repo__c</field>
+        <operation>equals</operation>
+        <value>df17AppBuilding</value>
+    </filters>
+    <filters>
+        <field>Repo__c</field>
+        <operation>equals</operation>
+        <value>flows-simple</value>
+    </filters>
+    <filters>
+        <field>Repo__c</field>
+        <operation>equals</operation>
+        <value>lightning-go-live</value>
+    </filters>
+    <filters>
+        <field>Repo__c</field>
+        <operation>equals</operation>
+        <value>js-buttons</value>
+    </filters>
+    <filters>
+        <field>NAME</field>
+        <operation>equals</operation>
+        <value>Boost Productivity with Console Apps</value>
+    </filters>
+    <filters>
+        <field>Repo__c</field>
+        <operation>notEqual</operation>
+        <value>cpq-workshop,reporting-workshop</value>
+    </filters>
+    <label>TDX Workshops</label>
+</ListView>
