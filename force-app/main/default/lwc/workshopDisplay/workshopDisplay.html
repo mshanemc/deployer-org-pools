@@ -1,0 +1,9 @@
+<template>
+    <template if:true={workshop.data}>
+        <div class="slds-text-heading_medium">
+            {workshop.data.fields.Name.value}
+        </div>
+        <div>{workshop.data.fields.Description__c.value}</div>
+    </template>
+    <c-workshop-schedule record-id={recordId}></c-workshop-schedule>
+</template>

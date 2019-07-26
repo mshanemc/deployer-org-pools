@@ -1,0 +1,25 @@
+<template>
+    <template if:true={hasSchedule}>
+        <div class="slds-m-top_large">Click a session to register</div>
+    </template>
+
+    <template if:false={hasSchedule}>
+        <div class="slds-m-top_large">No sessions scheduled</div>
+    </template>
+
+    <template for:each={WorkshopSchedule} for:item="workshop">
+        <div key={workshop.Id}>
+            <a href={workshop.Registration_Link__c}>
+                <lightning-formatted-date-time
+                    value={workshop.Start_Time__c}
+                    year="numeric"
+                    month="numeric"
+                    day="numeric"
+                    hour="2-digit"
+                    minute="2-digit"
+                    time-zone-name="short"
+                ></lightning-formatted-date-time>
+            </a>
+        </div>
+    </template>
+</template>

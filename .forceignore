@@ -5,3 +5,13 @@
 package.xml
 **appMenu
 **profiles
+**appSwitcher
+**objectTranslations
+**settings
+
+# LWC configuration files
+**/jsconfig.json
+**/.eslintrc.json
+
+# LWC Jest
+**/__tests__/**
