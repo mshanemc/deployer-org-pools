@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Org_Pool__c</fullName>
+    <externalId>false</externalId>
+    <label>Org Pool</label>
+    <referenceTo>Org_Pool__c</referenceTo>
+    <relationshipLabel>Scheduled Workshops</relationshipLabel>
+    <relationshipName>Scheduled_Workshops</relationshipName>
+    <relationshipOrder>0</relationshipOrder>
+    <reparentableMasterDetail>false</reparentableMasterDetail>
+    <trackTrending>false</trackTrending>
+    <type>MasterDetail</type>
+    <writeRequiresMasterRead>false</writeRequiresMasterRead>
+</CustomField>

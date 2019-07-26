@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <deploymentStatus>Deployed</deploymentStatus>
+    <label>Scheduled Workshop</label>
+    <pluralLabel>Scheduled Workshops</pluralLabel>
+    <description>added from sfdx plugin</description>
+    <nameField>
+        <displayFormat>ScheduledWorkshop-{0}</displayFormat>
+        <type>AutoNumber</type>
+        <label>Name</label>
+    </nameField>
+    <sharingModel>ControlledByParent</sharingModel>
+</CustomObject>

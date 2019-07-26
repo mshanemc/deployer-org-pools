@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField>
+    <label>Start Time</label>
+    <type>DateTime</type>
+    <fullName>Start_Time__c</fullName>
+</CustomField>
