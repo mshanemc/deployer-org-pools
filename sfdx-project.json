@@ -12,6 +12,7 @@
     "sfdcLoginUrl": "https://login.salesforce.com",
     "sourceApiVersion": "46.0",
     "packageAliases": {
-        "org pools": "0Ho3u000000CaWgCAK"
+        "org pools": "0Ho3u000000CaWgCAK",
+        "org pools@0.1.0-1": "04t3u0000038MKyAAM"
     }
 }
