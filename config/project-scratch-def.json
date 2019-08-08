@@ -1,11 +1,12 @@
 {
-  "orgName": "deployer-org-pools",
-  "edition": "Developer",
-  "settings": {
-    "orgPreferenceSettings": {
-      "s1DesktopEnabled": true,
-      "pathAssistantsEnabled": true,
-      "s1EncryptedStoragePref2": false
+    "orgName": "deployer-org-pools",
+    "edition": "Developer",
+    "features": ["SurveyCreatorUser"],
+    "settings": {
+        "orgPreferenceSettings": {
+            "s1DesktopEnabled": true,
+            "pathAssistantsEnabled": true,
+            "s1EncryptedStoragePref2": false
+        }
     }
-  }
 }
