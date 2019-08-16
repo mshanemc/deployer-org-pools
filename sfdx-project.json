@@ -5,7 +5,7 @@
             "default": true,
             "package": "org pools",
             "versionName": "ver 0.1",
-            "versionNumber": "0.1.0.NEXT"
+            "versionNumber": "0.2.0.NEXT"
         }
     ],
     "namespace": "",
@@ -13,6 +13,9 @@
     "sourceApiVersion": "46.0",
     "packageAliases": {
         "org pools": "0Ho3u000000CaWgCAK",
-        "org pools@0.1.0-1": "04t3u0000038MKyAAM"
+        "org pools@0.1.0-1": "04t3u0000038MKyAAM",
+        "org pools@0.1.0-2": "04t3u0000038MRaAAM",
+        "org pools@0.1.0-3": "04t3u0000038MRkAAM",
+        "org pools@0.2.0-1": "04t3u0000038MRpAAM"
     }
 }

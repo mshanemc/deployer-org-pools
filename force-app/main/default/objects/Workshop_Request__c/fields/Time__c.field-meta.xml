@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Time__c</fullName>
+    <externalId>false</externalId>
+    <label>Time</label>
+    <required>true</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>10:30-12:00pm PST</fullName>
+                <default>false</default>
+                <label>10:30-12:00pm PST</label>
+            </value>
+            <value>
+                <fullName>9:30-11:00am EST</fullName>
+                <default>false</default>
+                <label>9:30-11:00am EST</label>
+            </value>
+            <value>
+                <fullName>11:30- 1:00pm EST</fullName>
+                <default>false</default>
+                <label>11:30- 1:00pm EST</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

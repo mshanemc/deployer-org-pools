@@ -11,6 +11,8 @@ public with sharing class workshopSchedule {
                 Org_Pool__c =: poolId 
                     and
                 Start_Time__c >: System.Now()
+                    and
+                Registration_Link__c != null
             ];
     }
 }

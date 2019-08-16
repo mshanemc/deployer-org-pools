@@ -34,6 +34,16 @@
         <editable>true</editable>
         <field>Scheduled_Workshop__c.Start_Time__c</field>
     </fieldPermissions>
+    <fieldPermissions>
+        <readable>true</readable>
+        <editable>true</editable>
+        <field>Workshop_Request__c.Confirmed__c</field>
+    </fieldPermissions>
+    <fieldPermissions>
+        <readable>true</readable>
+        <editable>true</editable>
+        <field>Workshop_Request__c.SE_Lead_for_HOW__c</field>
+    </fieldPermissions>
     <hasActivationRequired>false</hasActivationRequired>
     <label>OrgPoolPerms</label>
     <objectPermissions>
@@ -63,8 +73,38 @@
         <object>Scheduled_Workshop__c</object>
         <viewAllRecords>true</viewAllRecords>
     </objectPermissions>
+    <objectPermissions>
+        <allowCreate>true</allowCreate>
+        <allowDelete>true</allowDelete>
+        <allowEdit>true</allowEdit>
+        <allowRead>true</allowRead>
+        <modifyAllRecords>true</modifyAllRecords>
+        <object>Staffer__c</object>
+        <viewAllRecords>true</viewAllRecords>
+    </objectPermissions>
+    <objectPermissions>
+        <allowCreate>true</allowCreate>
+        <allowDelete>true</allowDelete>
+        <allowEdit>true</allowEdit>
+        <allowRead>true</allowRead>
+        <modifyAllRecords>true</modifyAllRecords>
+        <object>Workshop_Request__c</object>
+        <viewAllRecords>true</viewAllRecords>
+    </objectPermissions>
     <tabSettings>
         <tab>Org_Pool__c</tab>
+        <visibility>Visible</visibility>
+    </tabSettings>
+    <tabSettings>
+        <tab>Org_Pool__c</tab>
+        <visibility>Visible</visibility>
+    </tabSettings>
+    <tabSettings>
+        <tab>Staffer__c</tab>
+        <visibility>Visible</visibility>
+    </tabSettings>
+    <tabSettings>
+        <tab>Workshop_Request__c</tab>
         <visibility>Visible</visibility>
     </tabSettings>
 </PermissionSet>
