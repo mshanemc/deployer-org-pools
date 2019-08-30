@@ -44,6 +44,11 @@
         <editable>true</editable>
         <field>Workshop_Request__c.SE_Lead_for_HOW__c</field>
     </fieldPermissions>
+    <fieldPermissions>
+        <readable>true</readable>
+        <editable>true</editable>
+        <field>Scheduled_Workshop__c.Leader__c</field>
+    </fieldPermissions>
     <hasActivationRequired>false</hasActivationRequired>
     <label>OrgPoolPerms</label>
     <objectPermissions>
@@ -97,6 +102,22 @@
     </tabSettings>
     <tabSettings>
         <tab>Org_Pool__c</tab>
+        <visibility>Visible</visibility>
+    </tabSettings>
+    <tabSettings>
+        <tab>Staffer__c</tab>
+        <visibility>Visible</visibility>
+    </tabSettings>
+    <tabSettings>
+        <tab>Workshop_Request__c</tab>
+        <visibility>Visible</visibility>
+    </tabSettings>
+    <tabSettings>
+        <tab>Org_Pool__c</tab>
+        <visibility>Visible</visibility>
+    </tabSettings>
+    <tabSettings>
+        <tab>Scheduled_Workshop__c</tab>
         <visibility>Visible</visibility>
     </tabSettings>
     <tabSettings>
