@@ -23,7 +23,8 @@
     <requireHttps>true</requireHttps>
     <requireInsecurePortalAccess>false</requireInsecurePortalAccess>
     <selfRegPage>CommunitiesSelfReg</selfRegPage>
-    <siteAdmin>test-8blrwqgehzmi@example.com</siteAdmin>
+    <siteAdmin>shane@platformers.org</siteAdmin>
     <siteType>ChatterNetwork</siteType>
-    <subdomain>hvwdev19-developer-edition</subdomain>
+    <subdomain>isvsi-14ddd2ecd93-159a7094ef-15ab9e95e81</subdomain>
+    <urlPathPrefix>staffing</urlPathPrefix>
 </CustomSite>

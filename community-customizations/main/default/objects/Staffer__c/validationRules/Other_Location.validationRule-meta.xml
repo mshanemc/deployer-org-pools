@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Other_Location</fullName>
+    <active>true</active>
+    <description>If outside of U.S., other Location must be populated.</description>
+    <errorConditionFormula>ISPICKVAL(State__c, &quot;Outside of U.S.&quot;) &amp;&amp;  ISBLANK(Location_if_Outside_of_U_S__c )</errorConditionFormula>
+    <errorDisplayField>Location_if_Outside_of_U_S__c</errorDisplayField>
+    <errorMessage>Please enter your location if outside of the U.S.</errorMessage>
+</ValidationRule>

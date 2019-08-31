@@ -2,10 +2,18 @@
     "packageDirectories": [
         {
             "path": "force-app",
-            "default": true,
             "package": "org pools",
             "versionName": "ver 0.1",
-            "versionNumber": "0.2.0.NEXT"
+            "versionNumber": "0.3.0.NEXT"
+        },
+        {
+            "path": "community-customizations",
+            "dependencies": [
+                {
+                    "package": "04t1n000002DeavAAC"
+                }
+            ],
+            "default": true
         }
     ],
     "namespace": "",
@@ -16,6 +24,7 @@
         "org pools@0.1.0-1": "04t3u0000038MKyAAM",
         "org pools@0.1.0-2": "04t3u0000038MRaAAM",
         "org pools@0.1.0-3": "04t3u0000038MRkAAM",
-        "org pools@0.2.0-1": "04t3u0000038MRpAAM"
+        "org pools@0.2.0-1": "04t3u0000038MRpAAM",
+        "org pools@0.3.0-1": "04t3u0000038MRuAAM"
     }
 }

@@ -8,6 +8,7 @@ package.xml
 **appSwitcher
 **objectTranslations
 **settings
+Profile
 
 # LWC configuration files
 **/jsconfig.json

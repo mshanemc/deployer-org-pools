@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Onsite_Readiness_Consult</fullName>
+    <active>true</active>
+    <description>If Onsite Readiness Consult equals Yes then populate Locations</description>
+    <errorConditionFormula>ISPICKVAL(Able_to_do_Onsite_Readiness_Consult__c,&quot;Yes&quot;) &amp;&amp;  ISBLANK(Which_Onsite_Locations__c )</errorConditionFormula>
+    <errorDisplayField>Which_Onsite_Locations__c</errorDisplayField>
+    <errorMessage>Please list the locations where you can perform an Onsite Readiness Consult.</errorMessage>
+</ValidationRule>
